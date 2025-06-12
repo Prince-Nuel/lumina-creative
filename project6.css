@@ -1,202 +1,225 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    --span-background: rgb(240, 235, 205);
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  --span-background: rgb(240, 235, 205);
 }
-body{
-    font-family: "Open Sans";
+body {
+  font-family: "Open Sans";
 }
-                            /*FOR HEADER*/
-.flex1{
-    margin: 10px auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-    max-width: 600px;
-    align-content: center;
+/*FOR HEADER*/
+.flex1 {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  max-width: 600px;
+  align-content: center;
 }
-.bx2{
-    text-align: center;
-    align-self: center;
+.bx2 {
+  text-align: center;
+  align-self: center;
 }
-.bx1, .nav1{
-    padding: 2px;
-    width: 100px;
+.bx1,
+.nav1 {
+  padding: 2px;
+  width: 100px;
 }
-.bx1 img{
-    object-fit: contain;
+.bx1 img {
+  object-fit: contain;
 }
-a{
-    background: transparent;
-    border: none;
-    padding: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-    color: black;
+a {
+  background: transparent;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
 }
 a:hover {
-    background: var(--span-background);
+  background: var(--span-background);
 }
-.current{
-     background: var(--span-background);
+.current {
+  background: var(--span-background);
 }
-                                        /*FOR FOOTER*/
-.flex3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
-    margin: 0 auto;
-    max-width: 600px;
-    gap: 10px;
+/*FOR FOOTER*/
+.flex3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  gap: 10px;
 }
-h5{
-    margin: 10px 0px;
+h5 {
+  margin: 10px 0px;
 }
-.new-a{
-    margin-right: 0px;
-    padding: 0px;
-    background-color: transparent;
+.new-a {
+  margin-right: 0px;
+  padding: 0px;
+  background-color: transparent;
 }
-.nav1, .nav3{
-    align-self: center;
+.nav1,
+.nav3 {
+  align-self: center;
 }
-.nav2{
-    font-size: 0.8rem;
+.nav2 {
+  font-size: 0.8rem;
 }
-.nav2 h5, .nav3 h5{
-    font-size: 1rem;
+.nav2 h5,
+.nav3 h5 {
+  font-size: 1rem;
 }
-.nav3 .new-a{
-    font-size: 1.5rem;
+.nav3 .new-a {
+  font-size: 1.5rem;
 }
-                                        /*for first page*/
+/*for first page*/
 
-.big{
-    font-size: 2rem;
-    text-align: center;
-    padding: 10px;
-    max-width: 600px;
-    margin: 100px auto;
-    line-height: 3rem;
+.big {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  max-width: 600px;
+  margin: 100px auto;
+  line-height: 3rem;
 }
-span{
-    background-color: var(--span-background);
-    padding: 4px 0px;
-    margin-right: 2px;
+span {
+  background-color: var(--span-background);
+  padding: 4px 0px;
+  margin-right: 2px;
 }
-.flex2{
-    display: flex;
-    margin: 20px auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    gap: 14px;
-    font-size: 0.8rem;
-    text-transform: capitalize;
+.flex2 {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 14px;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  align-items: center;
+}
+img {
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+}
+.all-img-size {
+  width: 300px;
+  height: 250px;
+}
+.flex2 a {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*for the second page*/
+.color {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+.flex3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 0px;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+h3 {
+  text-align: center;
+  margin: 20px;
+  text-transform: capitalize;
+}
+.box {
+  font-size: 0.8rem;
+  max-width: 250px;
+}
+.box h5 {
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+p {
+  text-align: center;
+  font-weight: bolder;
+  margin: 20px;
+}
+section .all-img-size img {
+  height: 200px;
+}
+/* for the third page */
+.color .big span {
+  color: black;
+}
+form {
+  margin: 10px auto 60px;
+  max-width: 600px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 10px;
+}
+input,
+textarea {
+  width: 100%;
+  display: block;
+  margin: 10px 0px;
+  border: none;
+  border-bottom: solid black 0.5px;
+  padding: 10px 0px;
+  text-transform: capitalize;
+}
+textarea {
+  height: 170px;
+  font-size: 1rem;
+}
+button {
+  width: 100%;
+  height: 2.5rem;
+  margin: 10px 0px;
+  padding: 10px;
+  text-align: center;
+  background: transparent;
+  text-transform: capitalize;
+  border: solid black 0.5px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+@media (max-width: 760px) {
+  .flex3,
+  .flex1 {
+    flex-direction: column;
     align-items: center;
-}
- img{
+  }
+  .bx1 img {
+    width: 100px;
+  }
+  .bx1 {
+    text-align: center;
     width: 100%;
-    height: inherit;
-    border-radius: 10px;
-} 
-.all-img-size{
-    width: 300px;
-    height: 250px;
-}
-.flex2 a{
-    padding: 0px;
-    margin: 0px;
-}
+  }
+  .bx2 {
+    margin: 10px 0px 0px 0px;
+  }
 
-                                    /*for the second page*/
-.color{
-    background-color: black;
-    color: white;
-    width: 100%;
-    padding: 20px;
-}
-.flex3{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    gap: 0px;
-    flex-wrap: wrap;
-    max-width: 800px;
-}
-h3{
-    text-align:center;
-    margin: 20px;
-    text-transform: capitalize;
-}
-.box{
-    font-size: 0.8rem;
-    max-width: 250px;
-}
-.box h5{
-    font-size: 0.9rem;
-    text-transform: capitalize;
-}
-p{
-    text-align: center;
-    font-weight: bolder;
-    margin: 20px;
-}
-section .all-img-size img{
-    height: 200px;
-}
-                        /* for the third page */
-.color .big span{
-    color: black;
-}
-form{
-    margin: 10px auto 60px;
-    max-width: 600px;
-    text-align: center;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-input, textarea{
-    width: 100%;
-    display: block;
-    margin: 10px 0px;
-    border: none;
-    border-bottom: solid black 0.5px;
-    padding: 10px 0px;
-    text-transform: capitalize;
-}
-textarea{
-    height: 170px;
+  .nav {
+    width: 200px;
+  }
+
+  .nav2 h5,
+  .nav3 h5 {
+    font-size: 1.5rem;
+  }
+  .nav2,
+  .nav3 a {
     font-size: 1rem;
-}
-button{
-    width: 100%;
-    height: 2.5rem;
-    margin: 10px 0px;
-    padding: 10px;
-    text-align: center;
-    background: transparent;
-    text-transform: capitalize;
-    border: solid black 0.5px;
-}
-@media(max-width: 760px){
-    .flex3, .flex1{
-        flex-direction:column;
-        align-items: center;
-    }
-    .bx1 img{
-        width: 100px;
-    }
-    .bx1{
-        text-align: center;
-        width: 100%;
-    }
-    .bx2{
-        margin: 10px 0px 0px 0px;
-    }
+  }
 }
